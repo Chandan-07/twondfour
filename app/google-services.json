@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "281687960511",
+    "firebase_url": "https://navi-f790e.firebaseio.com",
+    "project_id": "navi-f790e",
+    "storage_bucket": "navi-f790e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281687960511:android:a1382e7bfd262273",
+        "android_client_info": {
+          "package_name": "com.wordpress.keepup395.navi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281687960511-kmkm1ta3pcjmrdohk9n840cf3spoj2s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wordpress.keepup395.navi",
+            "certificate_hash": "8a633ea4bedaae1cb8d06167d7828863fd540098"
+          }
+        },
+        {
+          "client_id": "281687960511-05o71r8ahsluquk3d1em8u2titnkpsm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpWfg7LGuzpymcQig54h2v6YXDUGCB9xM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281687960511-05o71r8ahsluquk3d1em8u2titnkpsm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
