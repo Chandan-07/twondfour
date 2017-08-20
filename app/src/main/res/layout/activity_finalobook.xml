@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckdrpt"
+    tools:context="com.wordpress.keepup395.navi.finalobook">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/bikeimage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bookbutton"
+            app:srcCompat="@drawable/browser" />
+
+        <TextView
+            android:id="@+id/bikeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bikeimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bikeDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bikeTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/cardview_light_background" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="35dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bikeDesc"
+            android:layout_centerHorizontal="true"
+            android:text="User Name :"
+            android:textAllCaps="true"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/email"
+            android:layout_alignStart="@+id/email"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="15dp"
+            android:text="Phone no : "
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/startdatetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/enddatetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/tvcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:text="Confirm"
+            android:textColor="@color/cardview_light_background" />
+    </LinearLayout>
+
+
+</RelativeLayout>

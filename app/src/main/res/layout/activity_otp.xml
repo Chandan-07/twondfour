@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bckdrpt"
+    android:orientation="vertical"
+    tools:context="com.wordpress.keepup395.navi.OtpActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMeassage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="TextView"
+            android:textColor="@color/cardview_light_background"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <EditText
+            android:id="@+id/etOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/boarder"
+            android:ems="10"
+            android:hint="Enter your OTP"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textColorHint="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Your Current Ride will be cancelled after"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:text="Book"
+            android:textColor="@color/cardview_light_background" />
+    </LinearLayout>
+
+</RelativeLayout>
