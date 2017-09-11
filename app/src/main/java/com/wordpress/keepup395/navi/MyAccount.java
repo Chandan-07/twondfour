@@ -92,6 +92,7 @@ public class MyAccount extends AppCompatActivity {
                         JSONObject object = jsonArray.getJSONObject(i);
                         //url = new URL(object.getString("image"));
                         //bitmaps[i]= BitmapFactory.decodeStream(url.openConnection().getInputStream());
+
                         bikename[i] = object.getString("bike_name");
                         cost[i] = object.getString("cost");
                         startdate[i] = object.getString("start_date_time");

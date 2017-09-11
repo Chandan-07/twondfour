@@ -25,6 +25,7 @@ public class YourRide extends ArrayAdapter<String> {
     int mTime;
     String checkdecodestartdate = "";
     long checkStart;
+
     private String[] bikename;
     private String[] cost;
     private String[] startdate;

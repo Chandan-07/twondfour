@@ -137,6 +137,13 @@
             android:textSize="23dp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:text="TextView" />
+
     </LinearLayout>
 
     <LinearLayout

@@ -17,7 +17,7 @@ public class Launcher extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launcher);
-        mediaPlayer = MediaPlayer.create(this, R.raw.bikesound);
+        mediaPlayer = MediaPlayer.create(this, R.raw.bike);
         //ImageView imageView = (ImageView)findViewById(R.id.imageLogo);
         text = (TextView) findViewById(R.id.text);
         text.setText("2&Four");

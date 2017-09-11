@@ -50,6 +50,7 @@ public class finalobook extends AppCompatActivity {
     TextView usernametext;
     String[] bikeid;
     String checkEmail = "";
+    String text = "Make sure, you agree the terms & conditions of 2 &four ";
     private ProgressDialog loading;
 
     @Override
@@ -66,6 +67,7 @@ public class finalobook extends AppCompatActivity {
         TextView startdatetext = (TextView) findViewById(R.id.startdatetime);
         TextView enddatetext = (TextView) findViewById(R.id.enddatetime);
         TextView costtext = (TextView) findViewById(R.id.tvcost);
+        TextView terms = (TextView) findViewById(R.id.terms);
 
         Bundle b = getIntent().getExtras();
         title = b.getString("title");
@@ -85,6 +87,7 @@ public class finalobook extends AppCompatActivity {
         //ivBike.setImageBitmap(Bitmap.createScaledBitmap(bitmap,300,300,false));
         Picasso.with(finalobook.this).load(image).into(ivBike);
         tvTitle.setText(title);
+        terms.setText(text);
         tvDesc.setText(desc + " cc");
         emailtext.setText("Email : " + email);
         startdatetext.setText("Start Date and Time : " + startDateTime);
